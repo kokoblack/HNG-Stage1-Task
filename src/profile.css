@@ -1,0 +1,16 @@
+.center {
+    text-align: center;
+    padding: 4rem 6rem 2rem 6rem;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        padding: 0 1.2rem 2rem 1.2rem;
+    }
+    
+    .center {
+        padding: 3rem 1rem 2rem 1rem;
+    }
+
+    
+}

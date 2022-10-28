@@ -1,0 +1,43 @@
+#profile__img {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+#slack {
+    display: none;
+}
+
+.back_icon {
+    position: absolute;
+    right: 25vw;
+    top: 6vh;
+    border: 2px dotted #eaecf0;
+    border-radius: 100%;
+    padding: 0.7rem;
+    background-color: white;
+}
+
+.option_icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .option_icon {
+        display: block;
+        position: absolute;
+        right: 4vw;
+        top: 4vh;
+        border: 2px dotted #eaecf0;
+        border-radius: 100%;
+        padding: 1rem 0.65rem 1rem 0.65rem;
+        background-color: white;
+    }
+
+    .back_icon {
+        display: none;
+    }
+}
