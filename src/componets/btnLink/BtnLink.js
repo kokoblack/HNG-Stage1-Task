@@ -1,4 +1,5 @@
 import React from 'react'
+import{Link} from 'react-router-dom'
 import './btnLink.css'
 
 function BtnLink() {
@@ -19,6 +20,7 @@ function BtnLink() {
         <a href={url[3]} id='book__python' className='button'>Python Books</a>
         <a href={url[4]} id='pitch' className='button'>Background Check for Coders</a>
         <a href={url[5]} id='book__design' className='button'>Design Book</a>
+        <Link to='/contact' id='contact' className='button'>Contact</Link>
     </div>
   )
 }

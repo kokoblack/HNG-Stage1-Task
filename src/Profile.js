@@ -1,17 +1,16 @@
 import React from 'react'
-import Identification from './componets/identification/Identification'
-import BtnLink from './componets/btnLink/BtnLink'
-import Logos  from './componets/logos/Logos'
-import Footer from './componets/footer/Footer'
+import {Routes, Route} from 'react-router-dom'
+import Home from './Home'
+import { Contact } from './componets'
 import './profile.css'
 
 function Profile() {
   return (
     <div >
-        <Identification/>
-        <BtnLink/>
-        <Logos/>
-        <Footer/>
+        <Routes>
+        <Route path='/' element={<Home/>}/>
+          <Route path='contact' element={<Contact/>}/>
+        </Routes>
     </div>
   )
 }

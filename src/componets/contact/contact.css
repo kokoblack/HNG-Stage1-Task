@@ -1,0 +1,119 @@
+.form-container {
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    padding: 3vh 25vw 3vh 25vw;
+}
+
+.form {
+    margin-top: 3rem;
+}
+
+.form-text {
+    font-size: 0.9rem;
+}
+
+.form-name_container-style  {
+    display: flex;
+    gap: 20px;
+}
+
+.form-name_style  {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form-name_style-fn {
+    display: flex;
+}
+
+.form-name_style-ln {
+    display: flex;
+}
+
+.input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 1.8rem;
+    width: 100%;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #fff;
+    box-shadow: 0px 0px 5px 3px #d1e9ff;
+}
+
+input:checked {
+    color: #1570ef;
+    background-color: #fff;
+}
+
+::placeholder {
+    padding-left: 0.5rem;
+}
+
+.form-mg {
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.mg-outside {
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1 {
+    display: flex;
+}
+
+textarea {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height:7rem;
+    width: 100%;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #fff;
+    box-shadow: 0px 0px 5px 3px #d1e9ff;
+}
+
+.form-tick {
+    margin-right: 1rem;
+    border: 1px solid #1570ef;
+}
+
+button {
+    background-color: #1570ef;
+    border: 1px solid #84caff;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+    color: #fff;
+
+}
+
+@media screen and (max-width: 500px) {
+    .form-container {
+        padding: 3vh 5vw 3vh 5vw;
+    }
+    
+    .form-name_container-style  {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 940px) {
+    .form-container {
+        padding: 3vh 20vw 3vh 20vw;
+    }
+}
