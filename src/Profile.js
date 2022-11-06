@@ -9,7 +9,7 @@ function Profile() {
     <div >
         <Routes>
         <Route path='/' element={<Home/>}/>
-          <Route path='contact' element={<Contact/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
     </div>
   )
